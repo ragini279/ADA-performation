@@ -342,7 +342,7 @@ def section(icon, icon_cls, title, sub=""):
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("C:/Users/varma/Desktop/academic_performance_dataset_3000.csv")
+        df = pd.read_csv("academic_performance_dataset_3000.csv")
     except Exception:
         np.random.seed(42); n = 3000
         df = pd.DataFrame({
