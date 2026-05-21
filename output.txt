@@ -1,0 +1,68 @@
+1.FAIL (High Risk Student)
+
+Use this:
+
+Previous Grade: 30
+Attendance: 40
+Assignments: 1
+LMS Clicks: 20
+Forum Posts: 0
+Internet Usage: 8
+Study Time: 1
+Sleep: 4
+
+ Expected Output:
+Predicted Grade ≈ 30–45
+Fail
+High Risk
+
+ Reason:
+
+Low study
+Low attendance
+High distraction
+Poor history
+
+
+2. PASS (Average Student)
+
+Use this:
+
+Previous Grade: 60
+Attendance: 75
+Assignments: 6
+LMS Clicks: 200
+Forum Posts: 8
+Internet Usage: 4
+Study Time: 5
+Sleep: 6.5
+
+ Expected Output:
+Predicted Grade ≈ 50–70
+Pass
+
+Medium Risk
+
+Reason:
+
+Balanced behavior
+Not excellent, not poor
+
+
+ 3. DISTINCTION (Topper Student)
+
+Use this:
+
+Previous Grade: 90
+Attendance: 95
+Assignments: 10
+LMS Clicks: 450
+Forum Posts: 20
+Internet Usage: 1
+Study Time: 9–10
+Sleep: 8–9
+
+ Expected Output:
+Predicted Grade ≈ 80–95
+Distinction
+Low Risk
